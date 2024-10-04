@@ -1,0 +1,224 @@
+@media (min-width: 360px) and (max-width: 767px) {
+
+    .encabezado__container {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .encabezado__lista-item {
+        display: none;
+        width: 100%;
+    }
+
+    .encabezado__logo--imagen {
+        max-width: 24px;
+        max-height: 24px;
+    }
+
+    .introduccion__titulo {
+        font-size: 20px;
+    }
+
+    .introduccion__parrafo {
+        font-size: 14px;
+        padding-right: 0;
+    }
+
+    .introduccion__container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 -10px 0;
+    }
+
+    .introduccion__container-descripcion {
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .introduccion__imagen {
+        order: -1;
+        width: 98px;
+        height: 98px;    }
+
+    .introduccion__enlaces {
+        width: 20%;
+        margin-bottom: 0;
+    }
+    .introduccion__link-item{
+        font-size: 14px;
+    }
+
+    .imagen__flecha{
+        width: 14px;
+        height: 14px;
+    }
+
+    .about {
+        width: 100%;
+        padding: 10px 0 10px 75px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about__titulo {
+        font-size: 22px;
+        margin-left: -50px;
+    }
+
+    .about__texto {
+        width: 90%;
+        font-size: 14px;
+        margin-left: -50px;
+    }
+
+    .firma__about{
+        margin-left: -40px;
+    }
+
+
+    .container__elements,
+    .skills__elements {
+        width: 100%;
+    }
+    .skills__elements{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .cuadro__image {
+        width: 120px;
+        height: 90px;
+    }
+
+    .formacion__container{
+        margin-top: 30px;
+    }
+
+    .formacion__lista {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .titulo__carrera{
+        font-size: 16px;
+    }
+    .fecha__carrera {
+        font-size: 14px;
+    }
+
+    .cuadro__escuelas {
+        width: 240px;
+        height: 160px;
+    }
+
+    .imagen__formacion {
+        width: 40%;
+        height: 40%;
+    }
+
+    .container__experiencia{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: -80px;
+    }
+
+    .experiencia__item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 -60px;
+        padding-bottom: -20px;
+    }
+
+    .experiencia__item:nth-child(2),
+    .experiencia__item:nth-child(3),
+    .experiencia__item:nth-child(4),
+    .experiencia__item:nth-child(5) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px
+    }
+
+    .tile__item {
+        font-size: 16px;
+    }
+
+
+    .imagen__experiencia{
+        width: 296px;
+        height: 144px;
+    }
+
+
+    .demo__button{
+        width: 108px;
+        height: 40px;
+    }
+
+    .repository__button{
+        width: 108px;
+        height: 40px;
+    }
+
+    .container__contacto{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contacto__informacion{
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .imagen__contacto {
+        display: none;
+    }
+
+    .contacto__texto{
+        margin-top: -20px;
+        font-size: 14px;
+    }
+
+    .label__contacto{
+        font-size: 14px;
+    }
+
+    .entrada__contacto{
+        width: 320px;
+        height: 56px;
+    }
+
+    .input__contacto{
+        width: 300px;
+    }
+
+    .entrada__contacto:nth-child(5),
+    .entrada__contacto:nth-child(6) {
+        height:106px;
+    }
+
+    .enviar__mensaje {
+        width: 133px;
+        height: 40px;
+        border-radius: 20px;
+    }
+
+    .footer{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .body {
+        width: 360px;
+    }
+}

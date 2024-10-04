@@ -1,0 +1,170 @@
+@media (min-width: 768px) and (max-width: 900px) {
+
+    .encabezado__container {
+        width: 100%;
+    }
+
+    .encabezado__lista-item {
+        display: none;
+        width: 100%;
+    }
+
+    .encabezado__logo--imagen {
+        max-width: 80px;
+        max-height: 80px;
+        margin: 0 10px 0 -30px;
+    }
+
+    .introduccion__titulo {
+        font-size: 22px;
+    }
+
+    .introduccion__parrafo {
+        font-size: 16px;
+        padding-right: 0;
+    }
+
+    .introduccion__container {
+        width: 100%;
+        margin: -100px 10px -100px 50px;
+    }
+
+    .introduccion__container-descripcion {
+        padding: 0 30px;
+        margin-left: -50px;
+    }
+
+    .introduccion__imagen {
+        width: 146px;
+        height: 146px;
+        margin: 70px 160px 100px 0;
+    }
+
+    .about {
+        width: 100%
+    }
+
+    .about__titulo {
+        font-size: 22px;
+        margin-left: -50px;
+    }
+
+    .about__texto {
+        width: 80%;
+        font-size: 14px;
+        margin-left: -50px;
+    }
+
+    .container__elements,
+    .skills__elements {
+        width: 90%;
+    }
+
+    .container__elements {
+         margin-bottom: -60px;
+    }
+
+    .skills__elements {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .skills__element {
+        flex-basis: calc(33.33% - 10px);
+        margin: 0 10px -10px 0;
+    }
+
+    .cuadro__image {
+        width: 150px;
+        height: 118px;
+    }
+
+    .formacion__container,
+    .formacion__lista {
+        width: 100%;
+    }
+
+    .formacion__lista {
+        margin-left: 40px;
+    }
+
+.titulo__carrera{
+    font-size: 16px;
+}
+.fecha__carrera {
+    font-size: 14px;
+}
+
+    .cuadro__escuelas {
+        width: 210px;
+        height: 118px;
+    }
+
+    .imagen__formacion {
+        width: 40%;
+        height: 40%;
+    }
+
+    .container__experiencia{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: -70px 50px 0 -40px;
+
+    }
+
+    .experiencia__item:nth-child(2),
+    .experiencia__item:nth-child(3),
+    .experiencia__item:nth-child(4),
+    .experiencia__item:nth-child(5) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px
+    }
+
+    .imagen__experiencia{
+        align-self: center;
+        width: 704px;
+        height: 320px;
+    }
+
+    .container__contacto{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 40px;
+    }
+
+    .imagen__contacto {
+        display: none;
+    }
+    .contacto__texto{
+        margin-top: -20px;
+    }
+
+    .label__contacto{
+        font-size: 14px;
+    }
+
+    .entrada__contacto{
+        width: 704px;
+        height: 56px;
+    }
+
+    .entrada__contacto:nth-child(5),
+    .entrada__contacto:nth-child(6) {
+        height:106px;
+    }
+
+    .enviar__mensaje {
+        width: 133px;
+        height: 40px;
+    }
+
+    .footer{
+        width: 100%;
+    }
+}
